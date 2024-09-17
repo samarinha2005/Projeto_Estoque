@@ -35,8 +35,11 @@ public class ClasseProdutoRepo extends BaseRepositorio<ClasseProduto> {
 
     @Override
     public ClasseProduto Add(ClasseProduto instancia) {
-        ClasseProduto cp = this.dados.getLast();
-        int proxChave = cp.getCodigo() + 1;
+        // ClasseProduto cp = this.dados.getLast();
+        // int proxChave = cp.getCodigo() + 1;
+
+        int proxChave = this.dados.getLast().getCodigo() + 1;
+
         instancia.setCodigo(proxChave);
         this.dados.add(instancia);
         return instancia;

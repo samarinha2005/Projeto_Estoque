@@ -21,5 +21,4 @@ public class SubclasseProduto extends BaseParametro {
         super(codigo, descricao, dataDeInclusao);
         this.codigoClasse = codigoClasse;
     }
-
 }

@@ -31,5 +31,4 @@ public class Produto extends BaseParametro {
         this.codigoSubclasse = codigoSubclasse;
         this.valor = valor;
     }
-
 }

@@ -11,7 +11,7 @@ public class ClasseProdutoFakeDB
     @Override
     public void preencherDados() {
         if (this.tabela == null) {
-            this.tabela = new ArrayList<>();
+            this.tabela = new ArrayList<ClasseProduto>();
         }
         this.tabela.add(new ClasseProduto(1, "Carnes", LocalDate.now()));
         this.tabela.add(new ClasseProduto(2, "Bebidas", LocalDate.now()));
