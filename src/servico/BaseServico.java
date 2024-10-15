@@ -12,5 +12,5 @@ public abstract class BaseServico<TDominio> {
 
     public abstract TDominio Adicionar(TDominio obj);
 
-    public abstract TDominio Deletar(int chave);
+    public abstract TDominio Remover(int chave);
 }

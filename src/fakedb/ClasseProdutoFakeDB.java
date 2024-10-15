@@ -19,4 +19,8 @@ public class ClasseProdutoFakeDB
         this.tabela.add(new ClasseProduto(4, "Frutas", LocalDate.now()));
         this.tabela.add(new ClasseProduto(5, "Verduras", LocalDate.now()));
     }
+
+    public ClasseProdutoFakeDB() {
+        super();
+    }
 }

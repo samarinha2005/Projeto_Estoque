@@ -34,7 +34,7 @@ public class ClasseProdutoServico extends BaseServico<ClasseProduto> {
     }
 
     @Override
-    public ClasseProduto Deletar(int chave) {
+    public ClasseProduto Remover(int chave) {
         return this.repositorio.Delete(chave);
     }
 

@@ -31,4 +31,15 @@ public class Produto extends BaseParametro {
         this.codigoSubclasse = codigoSubclasse;
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        String msg = "SubclasseProduto";
+        msg += "\n\tcodigo=" + this.codigo;
+        msg += "\n\tdescricao=" + this.descricao;
+        msg += "\n\tdataDeInclusao=" + this.dataDeInclusao;
+        msg += "\n\tcodigoSubClasse=" + this.codigoSubclasse;
+        msg += "\n\tvalor=" + this.valor;
+        return msg;
+    }
 }

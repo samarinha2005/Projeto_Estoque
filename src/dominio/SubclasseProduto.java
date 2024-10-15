@@ -21,4 +21,14 @@ public class SubclasseProduto extends BaseParametro {
         super(codigo, descricao, dataDeInclusao);
         this.codigoClasse = codigoClasse;
     }
+
+    @Override
+    public String toString() {
+        String msg = "SubclasseProduto";
+        msg += "\n\tcodigo=" + this.codigo;
+        msg += "\n\tdescricao=" + this.descricao;
+        msg += "\n\tdataDeInclusao=" + this.dataDeInclusao;
+        msg += "\n\tcodigoClasse=" + this.codigoClasse;
+        return msg;
+    }
 }
